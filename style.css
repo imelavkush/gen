@@ -1,0 +1,41 @@
+body {
+  background: #0f2027;
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  width: 350px;
+  border-radius: 12px;
+}
+
+h1 {
+  text-align: center;
+  color: #203a43;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+button {
+  background: #203a43;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.chat {
+  margin-top: 20px;
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+}
